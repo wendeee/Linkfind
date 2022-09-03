@@ -16,7 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: auto ;
-    width: auto;
+    width: min(90%, 1140px);
 }
 
 .one{
@@ -84,4 +84,13 @@ body{
 
 .two > .all-links button img{
     margin-right: 15px;
+}
+
+@media screen and (max-width: 784px){
+    .container{
+        width: 100%;
+    }
+    .all-links > a img{
+        width: 6%;
+    }
 }
